@@ -1,9 +1,19 @@
 .navigation
 {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    flex-wrap: nowrap;
-    /* align-content: stretch; */
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
+    background-color: #e2e2e2;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    padding: 2px;
+}
+
+#heading
+{
+    font-size: x-large;
+    font-weight: bolder;
 }

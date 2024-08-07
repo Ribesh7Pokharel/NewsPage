@@ -4,7 +4,7 @@ import './article.css';
 const Article = () => {
     return (
         <div className='articleHolder'>
-            <img src='' className='imageHolder'></img>
+            <img src='' alt="" className='imageHolder'></img>
             <p className='title'>Homerun</p>
 
         </div>
