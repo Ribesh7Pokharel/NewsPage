@@ -1,0 +1,42 @@
+.articles-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+  }
+  
+  .article-container {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .article-logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .article-title {
+    margin-top: 10px;
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  .article-container:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+  @media (max-width: 768px) {
+    .articles-container {
+      flex-direction: column;
+    }
+  
+    .article-container {
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,14 +1,14 @@
 import React from 'react'
 import './article.css';
 
-const Article = () => {
+
+const Component = ({ logo, title, link }) => {
     return (
-        <div className='articleHolder'>
-            <img src='' alt="" className='imageHolder'></img>
-            <p className='title'>Homerun</p>
-
-        </div>
+      <div className="article-container" onClick={() => window.location.href = link}>
+        <img src={logo} alt="Article Logo" className="article-logo" />
+        <h2 className="article-title">{title}</h2>
+      </div>
     );
-}
-
-export default Article
+  };
+  
+  export default Component;
