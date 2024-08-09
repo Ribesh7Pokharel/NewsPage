@@ -11,6 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <NavBar />
+    <h2>Featured Articles</h2>
     <div className="articles-container">
     <Component
         logo={logo}
@@ -32,18 +33,18 @@ root.render(
       <div className="articles-container">
     <Component
         logo={logo2}
-        title="Create Your First Component"
-        link="https://react.dev/learn/your-first-component" // External link
+        title="Learn React"
+        link="https://www.youtube.com/watch?v=SqcY0GlETPk" // External link
       />
       <Component
         logo={logo2}
-        title="Go to React"
-        link="https://reactjs.org" // External link
+        title="Create a Component"
+        link="https://www.youtube.com/watch?v=PraIL031lno" // External link
       />
       <Component
         logo={logo2}
-        title="Go to React"
-        link="https://reactjs.org" // External link
+        title="Learn JSX"
+        link="https://www.youtube.com/watch?v=pIpzObwzJqo" // External link
       />
       </div>
     {/* <Footer /> */}
