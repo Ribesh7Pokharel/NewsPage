@@ -72,9 +72,7 @@ root.render(
         {/* You can add other routes here, such as sign-up */}
         <Route path="/signup" element={<SignUp />} />
       </Routes>
-      
-      {/* You can add your footer here if needed */}
-      {/* <Footer /> */}
+      <Footer /> 
     </Router>
   </React.StrictMode>
 );
